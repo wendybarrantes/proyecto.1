@@ -17,12 +17,39 @@ a{
     text-decoration:none;
     color: black;
 }
-.cont1{
-    
-}
 .imgInsta{
-    width: 30px;
+    width: 50px;
 }
 .imgWhatsApp{
-    width: 30px;
+    width: 50px;
+}
+.imgGmail{
+    width: 50px;
+}
+.listaRedes{
+    display: flex;
+    margin: 0 auto;
+    gap: 100px;
+    height: 150px;
+    padding: 50px;
+}
+.tituloFormulario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 22px;
+    margin-top:10vh;
+}
+.Formulario{
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    flex-direction: column;
+    border: 5px ;
+}
+.pie{
+    position: relative;
+    bottom: -8vh;
+    text-align: center;
 }
