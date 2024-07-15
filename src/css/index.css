@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hd_app{
+    background-color:#b8a8f1
+
+}
+.lista{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.cuerpo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 22px;
+    margin-top:10vh;
+}
+.texto{
+    width:500px;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+.listaT{
+    margin-top: 5vh;
+}
+.pie{
+    position: relative;
+    bottom: -8vh;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hd_app{
+    background-color:#b8a8f1
+
+}
+.lista{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.cont1{
+    
+}
+.imgInsta{
+    width: 30px;
+}
+.imgWhatsApp{
+    width: 30px;
+}
