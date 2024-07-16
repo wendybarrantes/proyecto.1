@@ -6,8 +6,8 @@
     font-weight: 400;
 }
 .hd_app{
-    background-color: #00a3a3;
-    border-bottom: 10px solid #a7f1ea;
+    background-color: #979682;
+    border-bottom: 10px solid #C5FFFD;
 
 }
 .lista{
@@ -15,7 +15,7 @@
     display: flex;
     gap: 50px;
     font-size: 22px;
-    margin: 0 auto;
+    margin-right: 300px;
 }
 a{
     text-decoration:none;
@@ -44,7 +44,7 @@ a{
 }
 .imgTienda{
     width: 100px;
-}
+margin-left: 150px;}
 body{
     background-color: #f2f2f2;
 }
@@ -52,4 +52,29 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2,);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+.cardImagen{
+    width: 100%;
+    height: auto;
+}
+.cardContenido{
+    padding: 15px;
+}
+.cardTitulo{
+    margin: 0;
+    font-size: 1.5em;
+    color:#333
+}
+.descripcionCard{
+    color:#666;
+    font-size: 1em;
+    margin-top: 10px;
 }
