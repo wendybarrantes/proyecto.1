@@ -6,9 +6,8 @@
     font-weight: 400;
 }
 .hd_app{
-    background-color: #979682;
+    background-color: #A5A5A5;
     border-bottom: 10px solid #C5FFFD;
-
 }
 .lista{
     list-style: none;
@@ -17,30 +16,10 @@
     font-size: 22px;
     margin-right: 300px;
 }
+
 a{
     text-decoration:none;
     color: white;
-}
-.cuerpo{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    font-size: 22px;
-    margin-top:10vh;
-}
-.texto{
-    width:500px;
-    margin: 0 auto;
-    margin-top: 5vh;
-}
-.listaT{
-    margin-top: 5vh;
-}
-.pie{
-    position: relative;
-    bottom: -8vh;
-    text-align: center;
 }
 .imgTienda{
     width: 100px;
@@ -60,6 +39,8 @@ body{
     overflow: hidden;
     max-width: 300px;
     text-align: center;
+    height: 500px ;
+    width: 500px;
 }
 .cardImagen{
     width: 100%;
@@ -77,4 +58,18 @@ body{
     color:#666;
     font-size: 1em;
     margin-top: 10px;
+}
+
+.cards{
+    margin-right:10vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 22px;
+
+}
+.pie{
+    position: relative;
+    bottom: -8vh;
+    text-align: center;
 }
