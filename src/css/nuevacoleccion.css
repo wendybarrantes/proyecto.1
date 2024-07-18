@@ -32,6 +32,13 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.seleccion{
+    border: none;
+    color: white;
+    background-color: #A5A5A5;
+    font-weight: 400;
+
+} 
 
 .card{
     background-color: #fff;
@@ -71,22 +78,3 @@ body{
     font-size: 22px;
     flex-wrap: wrap;
 }
-.pie{
-    position: relative;
-    bottom: -8vh;
-    text-align: center;
-}
-.btnComprar{
-    background-color: #BAA898;
-    color: white;
-    border: none;
-    width: 100%;
-    padding: 10px;
-}
-.seleccion{
-    border: none;
-    color: white;
-    background-color: #A5A5A5;
-    font-weight: 400;
-
-}   
