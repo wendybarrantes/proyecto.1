@@ -9,37 +9,140 @@
 <body>
 <header class="hd_app" >
     <nav>
-        <ul class="lista">
-            <a href="index.html"><li>Inicio</li></a>
-            <a href="contactenos.html"><li>Contáctenos</li></a>
-            <a href=""><li>Acerca de nosotros</li></a>
-            <a href=""><li>Ángeles y Arcoíris</li></a>
-            <a href=""><li>Niños</li></a>
-            <a href=""><li>Niñas</li></a>
-        </ul>
+        <div class="contenedorImg">
+            <img src="/src/imagenes/rainbow_2.png" alt="logo Angeles y Arcoíris" class="imgTienda">
+            <ul class="lista">
+                <a href="index.html"><li>Inicio</li></a>
+                <select  class= "seleccion" name="" id="selec-categoria" onchange="cambiarpagina()">
+                  <option value="" class="opcion1">Categorias</option>
+                  <option value="ropanina.html">Ropa niña</option>
+                  <option value="ropanino.html">Ropa niño</option>
+              </select>
+                <a href="contactenos.html"><li>Contáctenos</li></a>
+                <a href="/src/html/acercadenosotros.html"><li>Acerca de nosotros</li></a>
+            </ul>
+        </div>
     </nav>
-</header>
-<main class="cuerpo">
-    <h1>Wendy Barrantes</h1>
-    <p>Desarrolladora web</p>
-    <section class="infoproyecto">
-        <h2>Información del proyecto</h2>
-        <p class="texto">Este trabajo se realiza con el fin de construir por medio de las tecnologias
-            front end,un proyecto que desarrolle las 
-            habilidades necesarias para elaborar una página que simule una Tienda virtual.
-        </p>
-    </section>
-    <section class="tecnologias">
-        <h2>tecnologias usadas</h2>
-        <ol class="listaT">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-        </ol>
-    </section>
+    </header> 
+
+    <main>
+      <section class="cards">
+              <div class="card">
+                <video  autoplay muted loop  class="video" src="/src/imagenes/video04.mp4"></video>
+                  </div>
+                    <div class="card">
+                      <video  autoplay muted loop  class="video" src="/src/imagenes/video04.mp4"></video>
+                        </div>
+              <div class="card">
+                <video  autoplay muted loop  class="video" src="/src/imagenes/video04.mp4"></video>
+                  </div> 
+      </section>   
+
+<main>
+    <section class="cards">
+
+<div class="card">
+<img src="/src/imagenes/imagen.TIENDA1.jpg" alt="imagen1" class="cardImagen">
+<div class="cardContenido">
+  <h2 class="cardTitulo">
+    PIJAMA NIÑA 
+  </h2>
+</div>
+<P class="descripcionCard"> SKU: 571831 Disponibles: 17 ₡8,995.03 IVI</P>
+<button class="btnComprar">Agregar al carrito<img src="/src/imagenes/shopping-cart.png"></button>
+</div>
+
+<div class="card">
+    <img src="/src/imagenes/imagen.TIENDA3.jpg" alt="imagen1" class="cardImagen">
+    <div class="cardContenido">
+      <h2 class="cardTitulo">
+        CONJUNTO NIÑA 
+      </h2>
+    </div>
+    <P class="descripcionCard">SKU: 571169 Disponibles: 8  ₡13,994.99 IVI</P>
+    <button class="btnComprar">Agregar al carrito <img src="/src/imagenes/shopping-cart.png"></button>
+    </div>
+
+      <div class="card">
+        <img src="/src/imagenes/imagen.TIENDA4.jpg" alt="imagen1" class="cardImagen">
+        <div class="cardContenido">
+          <h2 class="cardTitulo">
+            CONJUNTO NIÑO 
+          </h2>
+        </div>
+        <P class="descripcionCard">SKU: 572729 Disponibles: 3 ₡11,995.01 IVI</P>
+        <button class="btnComprar">Agregar al carrito <img src="/src/imagenes/shopping-cart.png"></button>
+        </div>
+
+        <div class="card">
+          <img src="/src/imagenes/imagen.TIENDA7.jpg" alt="imagen1" class="cardImagen">
+          <div class="cardContenido">
+            <h2 class="cardTitulo">
+              CONJUNTO NIÑA FLORAL
+            </h2>
+          </div>
+          <P class="descripcionCard">SKU: 571141 Disponibles: 7 ₡14,994.99 IVI</P>
+          <button class="btnComprar">Agregar al carrito <img src="/src/imagenes/shopping-cart.png"></button>
+          </div>
+
+          <div class="card">
+            <img src="/src/imagenes/imagen.TIENDA6.jpg" alt="imagen1" class="cardImagen">
+            <div class="cardContenido">
+              <h2 class="cardTitulo">
+                PIJAMA SPIDER-MAN
+              </h2>
+            </div>
+            <P class="descripcionCard">SKU: 569721 Disponibles: 23 ₡11,995.01 IVI </P>
+            <button class="btnComprar">Agregar al carrito <img src="/src/imagenes/shopping-cart.png"></button>
+            </div>
+
+            <div class="card">
+              <img src="/src/imagenes/imagen.TIENDA2.jpg" alt="imagen1" class="cardImagen">
+              <div class="cardContenido">
+                <h2 class="cardTitulo">
+                  PIJAMA NIÑO
+                </h2>
+              </div>
+              <P class="descripcionCard">SKU: 571831 Disponibles: 17 ₡8,995.03 IVI</P>
+              <button class="btnComprar">Agregar al carrito <img src="/src/imagenes/shopping-cart.png"></button>
+              </div>
+
+              <div class="card">
+                <img src="/src/imagenes/imagen.TIENDA8.jpg" alt="imagen1" class="cardImagen">
+                <div class="cardContenido">
+                  <h2 class="cardTitulo">
+                    BLUSA NIÑA
+                  </h2>
+                </div>
+                <P class="descripcionCard">SKU: 569323 Disponibles: 6 ₡12,995.00 IVI</P>
+                <button class="btnComprar">Agregar al carrito <img src="/src/imagenes/shopping-cart.png"></button>
+                </div>
+</section>
 </main>
-<footer class="pie">
-    <p>página creada por wendy</p>
+<footer>
+  <div class="footer-container">
+      <div class="footer-about">
+          <h3>Tiendas y Acoiris</h3>
+          <p>Bienvenidos a Tiendas y Acoiris, su destino de confianza para la moda infantil. Nos dedicamos a ofrecer ropa de alta calidad y diseños adorables para bebés, asegurándonos de que cada prenda sea cómoda, segura y estilosa.</p>
+      </div>
+      <div class="footer-contact">
+          <h3>Contacto</h3>
+          <p>Email:      info@tiendasyacoiris.com</p>
+
+      </div>
+      <div class="footer-social">
+          <h3>Síguenos</h3>
+          <p>
+              <a href="https://www.instagram.com/tiendaangelesyarcoiriscr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a> | 
+              <a href="https://api.whatsapp.com/send?phone=50689757333&text=%20Hola,%20quiero%20saber%20m%C3%A1s%20sobre%20tu%20negocio" target="_blank">WhatsApp</a>
+          </p>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 Tiendas y Acoiris. Todos los derechos reservados.</p>
+  </div>
 </footer>
+
 </body>
+<script src="/src/js/categorias.js"></script>
 </html>

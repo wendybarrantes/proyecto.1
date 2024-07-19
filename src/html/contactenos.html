@@ -9,52 +9,58 @@
 <body>
     <header class="hd_app" >
         <nav>
-            <ul class="lista">
-                <a href="index.html"><li>Inicio</li></a>
-                <a href="contactenos.html"><li>Contáctenos</li></a>
-                <a href=""><li>Acerca de nosotros</li></a>
-                <a href=""><li>Ángeles y Arcoíris</li></a>
-                <a href=""><li>Niños</li></a>
-                <a href=""><li>Niñas</li></a>
-            </ul>
+            <div class="contenedorImg">
+                <img src="/src/imagenes/rainbow_2.png" alt="logo Angeles y Arcoíris" class="imgTienda">
+                <ul class="lista">
+                    <a href="index.html"><li>Inicio</li></a>
+                    <select  class= "seleccion" name="" id="selec-categoria" onchange="cambiarpagina()">
+                        <option value="" class="opcion1">Categorias</option>
+                        <option value="ropanina.html">Ropa niña</option>
+                        <option value="ropanino.html">Ropa niño</option>
+                    </select>
+                    <a href="contactenos.html"><li>Contáctenos</li></a>
+                    <a href="/src/html/acercadenosotros.html"><li>Acerca de nosotros</li></a>
+                </ul>
+            </div>
         </nav>
     </header>
+
     <main>
-        <h1>Contactos</h1>
-
-        <section>
-            <h2>
-                Nos puedes contactar de la siguiente manera 
-            </h2>
-            <ul>
-                <div class="cont1"><a href="https://goo.su/yHy5" target="_blank">
-                    <li>Instagram</li>
-                    <img class="imgInsta" src="/src/imagenes/instagram.png" alt="Perfil de instagram">
-                </a>
-                </div>
-                
-                <div class="cont2"><a href="https://goo.su/ASYTgwz" target="_blank">
-                <li>whatsapp</li>
-                <img class="imgWhatsApp" src="/src/imagenes/logo.png" alt="Perfil de whatsapp">
-                </a>
-                </div>
-
-
-
-            </ul>
-        
+        <section class="Formulario">
+            <h2 class="tituloFormulario">Asistencia y consultas</h2>
+            <form class="Formulario">
+            <input class = "inp1" type="text" placeholder="Nombre completo" id="inputNombre">
+            <input class="inp2"  type="text" placeholder="Gmail" id="inputGmail">
+            <textarea class="inp3" name="" id="inputMensaje" placeholder="Mensaje"></textarea>
+            <button  class="btnEnviar"  id="btnEnviar">ENVIAR</button >
+            </form>
         </section>
-
-
-
-
-
     </main>
 
-
-
-
-
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Tiendas y Acoiris</h3>
+                <p>Bienvenidos a Tiendas y Acoiris, su destino de confianza para la moda infantil. Nos dedicamos a ofrecer ropa de alta calidad y diseños adorables para bebés, asegurándonos de que cada prenda sea cómoda, segura y estilosa.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <p>Email:      info@tiendasyacoiris.com</p>
+      
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <p>
+                    <a href="https://www.instagram.com/tiendaangelesyarcoiriscr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a> | 
+                    <a href="https://api.whatsapp.com/send?phone=50689757333&text=%20Hola,%20quiero%20saber%20m%C3%A1s%20sobre%20tu%20negocio" target="_blank">WhatsApp</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Tiendas y Acoiris. Todos los derechos reservados.</p>
+        </div>
+      </footer>
 
 </body>
+<script src="/src/js/categorias.js"></script>
 </html>
