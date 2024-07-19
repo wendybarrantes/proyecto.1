@@ -44,8 +44,61 @@ article{
     height: auto;
     margin: 0 auto;
     background-color: transparent;
-    border: 2px solid #000;
     margin-top: 50px;
-    
+    text-align: center;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    color: #343a40;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-container div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-about, .footer-contact, .footer-social {
+    margin-bottom: 20px;
+}
+
+.footer-about h3, .footer-contact h3, .footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-about p, .footer-contact p, .footer-social p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-social a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #6c757d;
 }
 
