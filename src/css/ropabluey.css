@@ -37,20 +37,18 @@ body{
     color: white;
     background-color: #A5A5A5;
     font-weight: 400;
-
 } 
-
 .card{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2,);
     overflow: hidden;
     max-width: 300px;
-    text-align: center;
-    height: auto;
-    max-height: 600pxX;
-    width: 500px;
+    height: 70vh;
+    width: 100%;
     margin-top: 50px;
+    display: flex;
+    margin-left: -900px;    
 }
 .cardImagen{
     width: 100%;
@@ -69,7 +67,6 @@ body{
     font-size: 1em;
     margin-top: 5px;
 }
-
 .cards{
     margin-right:10vh;
     display: flex;
@@ -77,4 +74,10 @@ body{
     gap: 50px;
     font-size: 22px;
     flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+}
+.video{
+    height: auto;
+    width: 100%;
 }
